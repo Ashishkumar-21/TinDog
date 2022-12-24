@@ -1,0 +1,157 @@
+#title{
+    background-color: rgb(239, 96, 120);
+} 
+body{
+    font-family: "Montserrat";
+}
+.Meetme{
+    font-family: 'Montserrat-Black', sans-serif;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2,h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.dogimg {
+    transform: rotate(22.5deg);
+    margin-top: 20px;
+    position: absolute;
+    right: 22.5%;
+}
+
+/* Navigation bar */
+.nav-item{
+    padding: 0 15px;   
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0%;
+    padding-right: 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.5 rem;
+    font-family: "Montserrat";
+}
+
+/* download-button */
+.download-button{
+    margin: 10px 20px 10px 0;
+    
+}
+
+/* Features */
+#features{
+    
+    text-align: center;
+    padding: 7% 15%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    position: relative;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.underfeatures{
+    font-weight: bolder;
+}
+.fa-solid{
+    margin-bottom: 20px;
+    color: rgb(239, 96, 120);
+}
+.fa-solid:hover{
+    color: rgb(173, 10, 37);;
+}
+p{
+    color: grey;
+}
+
+/* Testimonials section */
+#testimonials{
+    background-color:rgb(239, 96, 120);
+    text-align: center;
+    font-family: Montserrat-bold;
+    color: aliceblue;
+    
+}
+.carousel-inner{
+    padding: 3% 15%;
+}
+.DogTestimonials{
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Dogimg{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+#press{
+    background-color:rgb(239, 96, 120);
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.investers{
+    background-color:rgb(239, 96, 120);
+    margin: 40px 50px 60px auto;
+}
+/* Pricing section */
+#pricing{
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+}
+.card{
+    margin: 12.5px;
+}
+
+
+@media (max-width: 1000px){
+    .dogimg{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    font-family: Montserrat-black;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(239, 96, 120);
+    padding: 5% 15%;
+}
+
+.ctatext{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 3rem
+}
+
+/* Fotter  */
+#footer{
+    margin-top: 5%;
+    text-align: center;   
+}
+.fa-brands-foot {
+    color: black;
+    margin: 2%;
+}
